@@ -1,0 +1,56 @@
+h1 {
+   color: teal;
+   text-align: center;
+}
+h2 {
+   color: gold;
+   text-align: center;
+}
+p {
+   text-align: center;
+}
+nav {
+   background-color: #808080 ;}
+a{
+   background-color: #ffbf00 ;
+   color: white;
+   padding: 35px;
+   display: block;
+   float: left;
+}  
+a.hover {
+   background-color: #ee5f3c ;
+}
+.clearfix:after {
+       visibility: hidden;
+       display: block;
+       content: " ";
+       clear: both;
+       height: 0;
+       font-size: 0;
+     }
+.board {
+   height: 80%;
+   width 50%;
+   display: inline-block;
+}
+.card {
+   background: yellow;
+   height: 200px;
+   width: 150px;
+   border: 1px solid black;
+   border-radius: 10px;
+   float: left;
+   margin: 8%;
+}
+.name {
+   color: #ff0000 ;
+}
+footer {
+   background-color: #808080 ;
+   text-align: center;
+}
+img {
+   height: 200px;
+   width: 150px;
+}
